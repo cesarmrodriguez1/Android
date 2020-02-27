@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">centeringbasics2</string>
+    <string name="label1">Hello World!!</string>
+    <string name="btn1">Boton 1</string>
+    <string name="btn2">Boton 2</string>
+    <string name="btn3">Boton 3</string>
+    <string name="btn4">Boton 4</string>
+    <string name="btn5">Boton 5</string>
+</resources>
