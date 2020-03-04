@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "264081714325-9mkq35obnrrqj8d51id12tasoved8tm6.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 1,
           "android_info": {
             "package_name": "mx.itesm.myfirebase1",
-            "certificate_hash": "8b983a6e242d1b601dd0a6952285b6a3a0f76a02"
+            "certificate_hash": ""
           }
         },
         {
@@ -29,7 +29,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDCFdnqoT4GXk8bzTqL8Ghjo8JGkgqDicc"
+          "current_key": ""
         }
       ],
       "services": {
