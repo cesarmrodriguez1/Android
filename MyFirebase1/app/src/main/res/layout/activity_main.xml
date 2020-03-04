@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/myname"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Name"
+       >
+   </EditText>
+    <EditText
+        android:id="@+id/mydate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/myoccupation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Occupation">
+    </EditText>
+    <EditText
+        android:id="@+id/myrole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Role"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/myemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/mypassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send data to firebase">
+    </Button>
+</LinearLayout>
