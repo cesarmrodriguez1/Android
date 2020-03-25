@@ -1,15 +1,21 @@
-package mx.itesm.mockitotest;
+package mx.itesm.mockitotest.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
-public class Login extends AppCompatActivity {
+import mx.itesm.mockitotest.R;
+import mx.itesm.mockitotest.app.MainActivity;
+
+public class LoginActivity extends AppCompatActivity implements Login.Activity {
  private EditText myusername, mypassword;
  private Button bSubmit;
+ private Login.Presenter presenter;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -19,6 +25,8 @@ public class Login extends AppCompatActivity {
         myusername = (EditText)findViewById(R.id.edit_username);
         mypassword = (EditText)findViewById(R.id.edit_password);
         bSubmit = (Button)findViewById(R.id.button_submit);
+
+        presenter = new LoginPresenter(this);
 
         String username = myusername.getText().toString();
         String password = mypassword.getText().toString();
@@ -32,5 +40,31 @@ public class Login extends AppCompatActivity {
         });
 
 
+    }
+
+    @Override
+    public void userIsValid()
+    {
+        Intent goMain = new Intent(LoginActivity.this, MainActivity.class);
+        startActivity(goMain);
+        finish();
+    }
+
+    @Override
+    public String getUsername()
+    {
+        return null;
+    }
+
+    @Override
+    public String getPassword()
+    {
+        return null;
+    }
+
+    @Override
+    public void data_error()
+    {
+       Toast.makeText(getApplicationContext(),"Invalid user",Toast.LENGTH_SHORT).show();
     }
 }

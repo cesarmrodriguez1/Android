@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".login.LoginActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="User name"
+        android:id="@+id/edit_username">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:id="@+id/edit_password">
+
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="submit"
+        android:id="@+id/button_submit">
+    </Button>
+
+</LinearLayout>

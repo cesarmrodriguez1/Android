@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Caller">
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:id="@+id/edit_phone"
+        android:hint="Enter phone"
+        android:layout_height="60dp">
+    </EditText>
+</LinearLayout>
+    <Button
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:text="Call now!!"
+        android:id="@+id/button_call">
+    </Button>
+    
+</LinearLayout>

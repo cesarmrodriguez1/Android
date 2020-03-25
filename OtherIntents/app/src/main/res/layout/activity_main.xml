@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/open_phone"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:text="Open Phone">
+
+    </Button>
+    <Button
+        android:id="@+id/open_email"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:text="Open Email">
+    </Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/edit_website"
+        android:hint="Enter website">
+
+    </EditText>
+    <Button
+        android:id="@+id/open_web"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:text="Open Web Site in Browser">
+    </Button>
+
+    <Button
+        android:id="@+id/open_webActivity"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:text="Open Web Site in Activity">
+    </Button>
+</LinearLayout>
