@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NavigationDrawerExample</string>
+    <string name="drawer_chat">Chat</string>
+    <string name="drawer_phone">Phone</string>
+    <string name="drawer_email">Email</string>
+    <string name="drawer_voicemail">Voicemail</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
