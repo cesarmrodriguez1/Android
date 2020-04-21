@@ -1,0 +1,44 @@
+<ScrollView android:fitsSystemWindows="true"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/primary"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingRight="24dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="56dp"
+        android:orientation="vertical">
+
+        <ImageView android:layout_height="72dp" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_marginBottom="24dp" android:src="@drawable/logo"/>
+
+        <!-- Etiqueta usuario -->
+
+        -<com.google.android.material.textfield.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginBottom="8dp" android:layout_marginTop="8dp">
+
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Usuario" android:inputType="text" android:id="@+id/inUser"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Etiqueta contraseña -->
+
+        <com.google.android.material.textfield.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginBottom="8dp" android:layout_marginTop="8dp">
+
+            <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Clave" android:inputType="textPassword" android:id="@+id/inPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/primary_dark"
+            android:id="@+id/button_login"
+            android:text="Login"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

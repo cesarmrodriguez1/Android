@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateProduct">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:id="@+id/updated_name"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:id="@+id/updated_price"
+        android:hint="Price" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:id="@+id/updated_urlImage"
+        android:hint="URL_Image" />
+
+
+    <android.support.v7.widget.AppCompatButton android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/primary_dark"
+        android:id="@+id/button_update"
+        android:text="Update product"
+        android:padding="12dp"/>
+
+</LinearLayout>
