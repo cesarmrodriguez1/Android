@@ -53,8 +53,8 @@ public class FragmentMaps extends Fragment implements OnMapReadyCallback {
         mMap = googleMap;
 
         mMap.getUiSettings().setZoomControlsEnabled(true); //Enables buttons for zoom
-        mMap.getUiSettings().setCompassEnabled(false); // Enables or disables compass
-        mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL); // Defines the Map Type
+        mMap.getUiSettings().setCompassEnabled(true); // Enables or disables compass
+        mMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE); // Defines the Map Type
         //GoogleMap.MAP_TYPE_NONE
         //GoogleMap.MAP_TYPE_NORMAL
         //GoogleMap.MAP_TYPE_HYBRID

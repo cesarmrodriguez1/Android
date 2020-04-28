@@ -4,13 +4,22 @@
     tools:showIn="navigation_view">
 
    <group android:checkableBehavior="single">
-       <item android:id="@+id/i_email"
-           android:icon="@drawable/ic_email"
-           android:title="@string/drawer_email" />
 
-       <item android:id="@+id/i_profile"
+       <item android:id="@+id/i_others"
+           android:icon="@drawable/ic_email"
+           android:title="Other GUIs" />
+
+       <item android:id="@+id/i_time"
+           android:icon="@drawable/ic_email"
+           android:title="Time Picker 1" />
+
+        <item android:id="@+id/i_time2"
+            android:icon="@drawable/ic_email"
+            android:title="Time Picker 2" />
+
+       <item android:id="@+id/i_progress"
            android:icon="@drawable/ic_profile"
-           android:title="Profile" />
+           android:title="Progress Bar" />
 
        <item android:id="@+id/i_map"
            android:icon="@drawable/ic_location"

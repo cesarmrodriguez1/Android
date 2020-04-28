@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -33,9 +34,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if(savedInstanceState == null)
         {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new email_fragment()).commit();
+                    new FragmentProgress()).commit();
 
-            navigationView.setCheckedItem(R.id.i_email);
+            navigationView.setCheckedItem(R.id.i_time);
         }
     }
 
@@ -56,13 +57,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch(item.getItemId())
         {
-            case R.id.i_email:
+            case R.id.i_time:
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    new FragmentTimePicker1()).commit();
+            break;
+            case R.id.i_time2:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new email_fragment()).commit();
+                        new FragmentTimePicker2()).commit();
                 break;
-            case R.id.i_profile:
+
+            case R.id.i_others:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new profile_fragment()).commit();
+                        new FragmentOthers()).commit();
+                break;
+
+            case R.id.i_progress:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new FragmentProgress()).commit();
                 break;
 
             case R.id.i_map:
