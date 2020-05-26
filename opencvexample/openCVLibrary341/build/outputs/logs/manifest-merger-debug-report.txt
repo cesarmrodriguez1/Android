@@ -1,0 +1,65 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:3:7-27
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:5:7-34
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:4:7-33
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:7:4-63
+	android:name
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:7:21-61
+uses-feature#android.hardware.camera
+ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:9:4-83
+	android:required
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:9:57-81
+	android:name
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:9:18-56
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:10:4-93
+	android:required
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:10:67-91
+	android:name
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:10:18-66
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:11:4-89
+	android:required
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:11:63-87
+	android:name
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:11:18-62
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:12:4-99
+	android:required
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:12:73-97
+	android:name
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:12:18-72
+uses-sdk
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+		ADDED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml

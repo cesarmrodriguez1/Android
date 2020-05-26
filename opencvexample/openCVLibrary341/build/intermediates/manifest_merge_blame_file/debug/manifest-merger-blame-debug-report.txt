@@ -1,0 +1,41 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.opencv"
+4    android:versionCode="3410"
+5    android:versionName="3.4.1" > <!-- <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="29" /> -->
+6    <uses-sdk
+7        android:minSdkVersion="8"
+7-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="29" />
+8-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.CAMERA" />
+10-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:7:4-63
+10-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:7:21-61
+11
+12    <uses-feature
+12-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:9:4-83
+13        android:name="android.hardware.camera"
+13-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:9:18-56
+14        android:required="false" />
+14-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:9:57-81
+15    <uses-feature
+15-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:10:4-93
+16        android:name="android.hardware.camera.autofocus"
+16-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:10:18-66
+17        android:required="false" />
+17-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:10:67-91
+18    <uses-feature
+18-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:11:4-89
+19        android:name="android.hardware.camera.front"
+19-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:11:18-62
+20        android:required="false" />
+20-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:11:63-87
+21    <uses-feature
+21-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:12:4-99
+22        android:name="android.hardware.camera.front.autofocus"
+22-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:12:18-72
+23        android:required="false" />
+23-->C:\Users\L03127435\Desktop\android\opencvexample\openCVLibrary341\src\main\AndroidManifest.xml:12:73-97
+24
+25</manifest>
